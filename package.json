@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "description": "后台管理系统平台脚手架",
     "main": "index.js",
+    "private": false,
     "bin": {
         "vkdmc": "./bin/www"
     },
