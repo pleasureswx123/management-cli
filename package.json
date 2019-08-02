@@ -1,6 +1,6 @@
 {
     "name": "management-cli",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "后台管理系统平台脚手架",
     "main": "index.js",
     "private": false,

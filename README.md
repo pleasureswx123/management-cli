@@ -11,13 +11,8 @@
 此时就可以使用 `vkdmc` 命令了。
 
 - `vkdmc config set company companyName`
-- `vkdmc init vue-template myVue`
+- `vkdmc init`
 - `vkdmc config get`
-- `vkdmc config set type orgs`
-- `vkdmc config set registry vuejs-templates`
-
-- `vkdmc config set type users`
-- `vkdmc config set registry YvetteLau`
 
 ### 发布
 
