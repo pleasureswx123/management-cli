@@ -7,13 +7,13 @@ exports.DEFAULTS = exports.RC = exports.VERSION = undefined;
 
 var _package = require('../../package.json');
 
-const VERSION = exports.VERSION = _package.version;
+var VERSION = exports.VERSION = _package.version;
 
-const HOME = process.env[process.platform === 'win32' ? 'USERPROFILE' : 'HOME'];
+var HOME = process.env[process.platform === 'win32' ? 'USERPROFILE' : 'HOME'];
 
-const RC = exports.RC = `${HOME}/.vkdmcrc`;
+var RC = exports.RC = HOME + '/.vkdmcrc';
 
-const DEFAULTS = exports.DEFAULTS = {
+var DEFAULTS = exports.DEFAULTS = {
     registry: 'github:pleasureswx123/managementScaffold',
     type: 'users',
     version: _package.version,
